@@ -7,6 +7,5 @@ PhanSo Divide(PhanSo A[], int n){
         P.tu=P.tu*A[i].mau;
         P.mau=P.mau*A[i].tu;
     }
-    
     return P;
 }
