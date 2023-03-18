@@ -8,5 +8,6 @@ PhanSo Sum(PhanSo A[], int n){
         S.tu=S.tu*A[i].mau+S.mau*A[i].tu;
         S.mau=S.mau*A[i].mau;
     }
+    
     return S;
 }
