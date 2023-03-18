@@ -65,7 +65,7 @@ void Xuat (PhanSo a[], int n){
         else cout <<a[i].tu<<"/"<<a[i].mau<<endl;
     }
 }
-void reduce(PhanSo a){
+void reduce(PhanSo &a){
     if (a.tu==0) a.tu=0;
     else if (a.tu==a.mau){ 
         a.tu=1;
