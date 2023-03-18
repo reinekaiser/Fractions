@@ -1,5 +1,5 @@
-#include "PhanSo.h"
-//#include "Reduce_fraction.cpp"
+
+#include "Reduce_fraction.cpp"
 PhanSo Sum(PhanSo A[], int n){
     PhanSo S;
     S.tu=A[0].tu;

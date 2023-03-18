@@ -1,6 +1,6 @@
 
 #include "PhanSo.h"
-#include "sum_fraction.cpp"
+
 void Nhap(PhanSo a[], int &n){
     cin >>n;
     for (int i=0; i<n; i++){
