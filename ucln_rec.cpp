@@ -1,7 +1,13 @@
 #include "PhanSo.h"
-int recUcln(PhanSo a[], int i){
+int ucln(PhanSo a[], int i){
+    int r;
     int m=a[i].tu;
     int n=a[i].mau;
-    if (m*n==0) return m+n;
-    return uclnRec(n,m%n);
+    do {
+        r=m;
+        m=n;
+        n=r%m;
+    }while(n!=0);
+    if (m<0) return -m;
+    else return m;
 }
